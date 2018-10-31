@@ -1,0 +1,20 @@
+{
+  "name": "kursrom-panel",
+  "version": "0.0.1",
+  "description": "GUI for ettrykkskonfigurering av svitsj-VLAN. Viser knapper per VLAN som kan velges for det aktuelle området, rommet eller den aktuelle svitsjen. Kommuniserer gjennom Rabbit MQ for å sende endringsforespørslene til systemene i bakkant.",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalegardermoen"
+  },
+  "author": "Digitale Gardermoen IS",
+  "contributors": [
+    {
+      "name": "Morten Olsrud"
+    }
+  ],
+  "license": "MIT"
+}
